@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Charalampos Panagopoulos — Automation, Web Development, Homelab" />
+  <img src="assets/banner.png" alt="Charalampos Panagopoulos — Automation, Web Development, Homelab" width="100%" />
 </p>
-<img src="banner.png" alt="profile banner" width="100%">
 
 <br/>
 
