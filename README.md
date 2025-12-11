@@ -3,6 +3,8 @@
 </p>
 <img src="banner.png" alt="profile banner" width="100%">
 
+<br/>
+
 # 👋 Hi, I'm Charalampos Panagopoulos
 
 Aspiring Web Developer transitioning from theology and customer service into tech.  
@@ -12,7 +14,7 @@ I love solving problems with technology, creating structure in my learning, and 
 
 ---
 
-## 🧠 Currently Learning
+## 📘 Currently Learning
 
 - HTML, CSS, Flexbox, CSS Grid, Bootstrap  
 - JavaScript Fundamentals (in progress)  
