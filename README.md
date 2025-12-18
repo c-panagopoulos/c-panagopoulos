@@ -31,7 +31,7 @@ My personal infrastructure for development, automation, and learning:
 ### **n8n Automation Projects**
 - 📚 **Image-to-Notes Learning System** (Nextcloud + OpenAI Vision)  
   Converts handwritten notes into structured digital cards  
-- 🗓️ **AI-Powered Daily Scheduler** *(in development)*  
+- 🗓️ **AI-Powered Daily Scheduler**
 - ⚙️ Custom routines, productivity tools, and quality-of-life automations  
 
 ### **Front-End Projects**
