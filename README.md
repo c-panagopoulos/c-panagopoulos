@@ -15,8 +15,7 @@ I love solving problems with technology, creating structure in my learning, and 
 
 ## 📘 Currently Learning
 
-- HTML, CSS, Flexbox, CSS Grid, Bootstrap, JavaScript  
-- Front-end best practices & responsive design  
+- React
 
 ---
 
@@ -54,7 +53,7 @@ This mindset keeps me learning, improving, and building every day.
 ## 🧰 Tech Stack
 
 **Languages & Tools:**  
-HTML • CSS • Bootstrap • JavaScript
+HTML • CSS • Bootstrap • JavaScript • Node.js • Express.js • PostgreSQL • REST APIs • Git
 
 **Automation & Infrastructure:**  
 n8n • OpenAI API • Nextcloud • Deck • Docker • Linux • Tailscale
