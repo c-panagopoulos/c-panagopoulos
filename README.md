@@ -87,4 +87,4 @@ My evolving web development showcase, built from scratch as part of my learning 
 
 ---
 
-Thanks for stopping by — more projects on the way as I continue my full-stack journey!
+Thanks for stopping by, more projects on the way as I continue my full-stack journey!
