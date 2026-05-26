@@ -13,13 +13,13 @@ I love solving problems with technology, creating structure in my learning, and 
 
 ---
 
-## 📘 Currently Learning
+## Currently Learning
 
 - React
 
 ---
 
-## 🛠️ What I’m Building
+## What I’m Building
 
 ### **Self-Hosted Homelab (Linux, Docker, Tailscale)**
 My personal infrastructure for development, automation, and learning:
@@ -28,10 +28,10 @@ My personal infrastructure for development, automation, and learning:
 - Optimized workflows for study and productivity
 
 ### **n8n Automation Projects**
-- 📚 **Image-to-Notes Learning System** (Nextcloud + OpenAI Vision)  
+- **Image-to-Notes Learning System** (Nextcloud + OpenAI Vision)  
   Converts handwritten notes into structured digital cards  
-- 🗓️ **AI-Powered Daily Scheduler**
-- ⚙️ Custom routines, productivity tools, and quality-of-life automations  
+- **AI-Powered Daily Scheduler**
+- Custom routines, productivity tools, and quality-of-life automations  
 
 ### **Front-End Projects**
 - Personal portfolio website (HTML/CSS/Javascript only for now — growing over time)  
@@ -39,7 +39,7 @@ My personal infrastructure for development, automation, and learning:
 
 ---
 
-## 🚀 What Drives Me
+## What Drives Me
 
 Technology helps me solve my own problems:
 - When I needed structure while studying, I built automations.  
@@ -50,10 +50,10 @@ This mindset keeps me learning, improving, and building every day.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 **Languages & Tools:**  
-HTML • CSS • Bootstrap • JavaScript • Node.js • Express.js • PostgreSQL • REST APIs • Git
+• React • • Node.js • Express.js • PostgreSQL • JavaScript • HTML • CSS • Bootstrap • REST APIs • Git
 
 **Automation & Infrastructure:**  
 n8n • OpenAI API • Nextcloud • Deck • Docker • Linux • Tailscale
@@ -63,9 +63,9 @@ Markdown • Git • GitHub • WebDAV • API integration
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
-### 🔹 [AI-Powered Learning Notes Automation](https://github.com/c-panagopoulos/n8n-automations)
+### [AI-Powered Learning Notes Automation](https://github.com/c-panagopoulos/n8n-automations)
 A workflow that turns handwritten notes into fully formatted, searchable Nextcloud Deck cards using n8n and OpenAI Vision.
 
 - Saves ~3 hours per week  
@@ -73,7 +73,7 @@ A workflow that turns handwritten notes into fully formatted, searchable Nextclo
 - Runs self-hosted in Docker  
 - Demonstrates real-world workflow engineering
 
-### 🔹 [Personal Portfolio Website](https://c-panagopoulos.github.io/Personal-Website/)
+### [Personal Portfolio Website](https://c-panagopoulos.github.io/Personal-Website/)
 My evolving web development showcase, built from scratch as part of my learning journey.
 
 ---
