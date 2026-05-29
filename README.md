@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Charalampos Panagopoulos — Full-Stack Development, AI, Homelab" width="100%" />
+  <img src="assets/banner_1_.png" alt="Charalampos Panagopoulos — Full-Stack Development, AI, Homelab" width="100%" />
 </p>
 <br/>
 
