@@ -1,86 +1,76 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Charalampos Panagopoulos — Automation, Web Development, Homelab" width="100%" />
+  <img src="assets/banner.png" alt="Charalampos Panagopoulos — Full-Stack Development, AI, Homelab" width="100%" />
 </p>
-
 <br/>
 
 # 👋 Hi, I'm Charalampos Panagopoulos
 
-Aspiring Web Developer transitioning from theology and customer service into tech.  
-I’m building strong front-end foundations, automating real problems with n8n, and running my own self-hosted homelab — all while working full-time in Greece.
+Full-stack developer based in Athens, Greece, with a background in customer service and a passion for building real, deployed software. I work across React and Node.js, integrate AI into practical tools, and run my own self-hosted homelab for development and automation.
 
-I love solving problems with technology, creating structure in my learning, and building tools that make everyday life easier.
-
----
-
-## Currently Learning
-
-- React
+My approach is simple: I build things that solve real problems — from a production AI chatbot to automations that remove hours of manual work from my week.
 
 ---
 
-## What I’m Building
+## 🚀 Featured Projects
 
-### **Self-Hosted Homelab (Linux, Docker, Tailscale)**
-My personal infrastructure for development, automation, and learning:
-- Dockerized services (Jellyfin, Nextcloud, Vaultwarden, etc.)
-- Automated remote access using Tailscale
-- Optimized workflows for study and productivity
+### [Hermes — AI Customer-Service Chatbot](https://github.com/c-panagopoulos/hermes-ai) &nbsp;·&nbsp; [Live Demo](https://hermes.cpanagopoulos.dev)
 
-### **n8n Automation Projects**
-- **Image-to-Notes Learning System** (Nextcloud + OpenAI Vision)  
-  Converts handwritten notes into structured digital cards  
-- **AI-Powered Daily Scheduler**
-- Custom routines, productivity tools, and quality-of-life automations  
+A production-ready, full-stack AI chatbot with a custom Retrieval-Augmented Generation (RAG) pipeline.
 
-### **Front-End Projects**
-- Personal portfolio website (HTML/CSS/Javascript only for now — growing over time)  
-- Small practice projects to sharpen JavaScript and layout skills  
+- **Custom RAG pipeline** — documents are chunked, embedded, and stored in PostgreSQL with `pgvector`, then retrieved by cosine similarity to ground every response
+- **Real-time token streaming** over Server-Sent Events, rendered word-by-word on a React frontend
+- **JWT-protected admin dashboard** with live analytics (containment/escalation rates, handle time) and drag-and-drop document ingestion
+- **Automatic human-handoff escalation** via an n8n webhook with full conversation history
+- **Deployed to production** on Vercel with a cloud backend, rate limiting, and an OpenAI-compatible LLM layer (Groq in production, local Ollama in development)
 
----
-
-## What Drives Me
-
-Technology helps me solve my own problems:
-- When I needed structure while studying, I built automations.  
-- When I wanted more control, I built and managed my homelab.  
-- When the manual work became too much, I designed workflows to remove it.
-
-This mindset keeps me learning, improving, and building every day.
-
----
-
-## Tech Stack
-
-**Languages & Tools:**  
-• React • • Node.js • Express.js • PostgreSQL • JavaScript • HTML • CSS • Bootstrap • REST APIs • Git
-
-**Automation & Infrastructure:**  
-n8n • OpenAI API • Nextcloud • Deck • Docker • Linux • Tailscale
-
-**Other:**  
-Markdown • Git • GitHub • WebDAV • API integration
-
----
-
-## Featured Projects
+`React 19` · `Vite` · `Tailwind` · `Node.js / Express` · `PostgreSQL + pgvector` · `Groq / Ollama` · `n8n` · `Vercel`
 
 ### [AI-Powered Learning Notes Automation](https://github.com/c-panagopoulos/n8n-automations)
-A workflow that turns handwritten notes into fully formatted, searchable Nextcloud Deck cards using n8n and OpenAI Vision.
 
-- Saves ~3 hours per week  
-- Uses a custom Markdown template  
-- Runs self-hosted in Docker  
+An n8n workflow that turns handwritten notes into formatted, searchable Nextcloud Deck cards using OpenAI Vision.
+
+- Saves ~3 hours per week
+- Custom Markdown template, runs self-hosted in Docker
 - Demonstrates real-world workflow engineering
 
 ### [Personal Portfolio Website](https://c-panagopoulos.github.io/Personal-Website/)
-My evolving web development showcase, built from scratch as part of my learning journey.
+
+My evolving web development showcase, built from scratch with HTML, CSS, and JavaScript.
 
 ---
 
-## 🌐 Connect with Me
+## 🛠️ Tech Stack
 
-- Portfolio: **https://c-panagopoulos.github.io/Personal-Website**  
+**Frontend:** React · JavaScript (ES6+) · Vite · Tailwind CSS · shadcn/ui · HTML5 · CSS3 · Bootstrap
+
+**Backend:** Node.js · Express · REST APIs · Server-Sent Events · JWT Auth · PostgreSQL · pgvector
+
+**AI & Automation:** RAG · OpenAI Embeddings · LLM Integration (Groq, Ollama) · Prompt Engineering · n8n
+
+**Infrastructure & Tooling:** Docker · Linux · Tailscale · Git & GitHub · Nextcloud · Vaultwarden · WebDAV · Vercel
+
+---
+
+## 🏗️ Self-Hosted Homelab
+
+My personal infrastructure for development, automation, and learning — and proof that my DevOps interest is hands-on, not theoretical:
+
+- Dockerized services (Jellyfin, Nextcloud, Vaultwarden, and more)
+- Secure remote access over Tailscale
+- Self-hosted n8n powering my automation projects
+
+---
+
+## 💡 What Drives Me
+
+Technology helps me solve my own problems. When I needed structure while studying, I built automations. When I wanted more control over my tools, I built and managed my homelab. When manual work piled up, I designed workflows to remove it. That same mindset is what I bring to building software for other people.
+
+---
+
+## 🌐 Connect
+
+- **Portfolio:** https://c-panagopoulos.github.io/Personal-Website/
+- **Email:** xar.panagopoulos@gmail.com
 - GitHub: **https://github.com/c-panagopoulos**  
 - LinkedIn: **https://linkedin.com/in/c-panagopoulos**  
 - Email: **char@panago.anonaddy.com**
