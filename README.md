@@ -11,7 +11,7 @@ My approach is simple: I build things that solve real problems — from a produc
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### [Hermes — AI Customer-Service Chatbot](https://github.com/c-panagopoulos/hermes-ai) &nbsp;·&nbsp; [Live Demo](https://hermes.cpanagopoulos.dev)
 
@@ -39,7 +39,7 @@ My evolving web development showcase, built from scratch with HTML, CSS, and Jav
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:** React · JavaScript (ES6+) · Vite · Tailwind CSS · shadcn/ui · HTML5 · CSS3 · Bootstrap
 
@@ -51,7 +51,7 @@ My evolving web development showcase, built from scratch with HTML, CSS, and Jav
 
 ---
 
-## 🏗️ Self-Hosted Homelab
+## Self-Hosted Homelab
 
 My personal infrastructure for development, automation, and learning — and proof that my DevOps interest is hands-on, not theoretical:
 
@@ -61,7 +61,7 @@ My personal infrastructure for development, automation, and learning — and pro
 
 ---
 
-## 💡 What Drives Me
+## What Drives Me
 
 Technology helps me solve my own problems. When I needed structure while studying, I built automations. When I wanted more control over my tools, I built and managed my homelab. When manual work piled up, I designed workflows to remove it. That same mindset is what I bring to building software for other people.
 
@@ -70,7 +70,6 @@ Technology helps me solve my own problems. When I needed structure while studyin
 ## 🌐 Connect
 
 - **Portfolio:** https://c-panagopoulos.github.io/Personal-Website/
-- **Email:** xar.panagopoulos@gmail.com
 - GitHub: **https://github.com/c-panagopoulos**  
 - LinkedIn: **https://linkedin.com/in/c-panagopoulos**  
 - Email: **char@panago.anonaddy.com**
