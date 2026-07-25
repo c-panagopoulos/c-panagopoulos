@@ -25,6 +25,18 @@ A production-ready, full-stack AI chatbot with a custom Retrieval-Augmented Gene
 
 `React 19` · `Vite` · `Tailwind` · `Node.js / Express` · `PostgreSQL + pgvector` · `Groq / Ollama` · `n8n` · `Vercel`
 
+### [tapstudy — NFC-Triggered Study Tracker](https://github.com/c-panagopoulos/tapstudy) &nbsp;·&nbsp; [Live Demo](https://tapstudy.cpanagopoulos.dev)
+
+A self-hosted study tracker triggered by tapping an NFC tag on a desk — no app to open, no timer to remember to start.
+
+- **Fact-first AI insights** — a local LLM (Ollama) never computes a number itself; every percentage, delta, and projection is precomputed in code and handed to the model purely to phrase into a sentence, avoiding the arithmetic errors small models make when asked to reason over raw stats
+- **NFC-triggered UX** — tapping a programmed tag hits a single `/scan` endpoint that starts or stops a session, with an animated confirmation screen and zero app-switching
+- **Single-container self-hosted deployment** — Postgres, Express, and nginx run together in one Docker image behind a bash entrypoint, deployed to both a homelab server and a public read-only demo on a Hetzner VPS behind a Cloudflare Tunnel
+- **Hardened for public exposure** — per-IP rate limiting, a read-only mode that blocks every mutating route at the backend (not just hidden in the UI), and a global error handler that never leaks stack traces
+- **Accessible guided onboarding tour** — dynamically positioned coach marks with full keyboard/screen-reader support (ARIA dialog semantics, managed focus, Escape-to-close)
+
+`React 19` · `Vite` · `Tailwind CSS` · `Recharts` · `Express` · `PostgreSQL` · `Ollama` · `Docker` · `Cloudflare Tunnel`
+
 ### [AI-Powered Learning Notes Automation](https://github.com/c-panagopoulos/n8n-automations)
 
 An n8n workflow that turns handwritten notes into formatted, searchable Nextcloud Deck cards using OpenAI Vision.
