@@ -45,7 +45,7 @@ An n8n workflow that turns handwritten notes into formatted, searchable Nextclou
 - Custom Markdown template, runs self-hosted in Docker
 - Demonstrates real-world workflow engineering
 
-### [Personal Portfolio Website](https://cpanagopoulos.dev)
+### [Personal Portfolio Website](https://github.com/c-panagopoulos/Personal-Website) &nbsp;·&nbsp; [Live Site](https://cpanagopoulos.dev)
 
 A full-stack portfolio site where the "about me" section is a real RAG-powered chat assistant, not static text — every answer is grounded in a set of indexed documents and cites the source chunks it actually used.
 
