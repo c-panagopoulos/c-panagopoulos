@@ -45,9 +45,17 @@ An n8n workflow that turns handwritten notes into formatted, searchable Nextclou
 - Custom Markdown template, runs self-hosted in Docker
 - Demonstrates real-world workflow engineering
 
-### [Personal Portfolio Website](https://c-panagopoulos.github.io/Personal-Website/)
+### [Personal Portfolio Website](https://cpanagopoulos.dev)
 
-My evolving web development showcase, built from scratch with HTML, CSS, and JavaScript.
+A full-stack portfolio site where the "about me" section is a real RAG-powered chat assistant, not static text — every answer is grounded in a set of indexed documents and cites the source chunks it actually used.
+
+- **Retrieval-augmented, not hallucinated** — documents are embedded locally via Ollama and retrieved from PostgreSQL + `pgvector` by cosine similarity; if the docs don't cover something, it says so instead of guessing
+- **Multi-turn conversation memory** — follow-up questions resolve correctly against the last few exchanges instead of being answered blind
+- **Hardened against prompt injection** — a locked-down system prompt plus a deterministic backstop that catches a system-prompt leak mid-stream and swaps it for a generic error
+- **Dual-provider LLM fallback** — Groq primary, Gemini automatic fallback if the daily quota is exhausted
+- **Self-hosted deployment** — Docker Compose on a Hetzner VPS, exposed through a Cloudflare Tunnel with zero public ports opened
+
+`React` · `Vite` · `Express` · `PostgreSQL + pgvector` · `Ollama` · `Groq / Gemini` · `Docker`
 
 ---
 
@@ -67,7 +75,7 @@ My evolving web development showcase, built from scratch with HTML, CSS, and Jav
 
 My personal infrastructure for development, automation, and learning — and proof that my DevOps interest is hands-on, not theoretical:
 
-- Dockerized services (Jellyfin, Nextcloud, Vaultwarden, and more)
+- Dockerized services (Nextcloud, Vaultwarden, and more)
 - Secure remote access over Tailscale
 - Self-hosted n8n powering my automation projects
 
@@ -81,7 +89,7 @@ Technology helps me solve my own problems. When I needed structure while studyin
 
 ## 🌐 Connect
 
-- **Portfolio:** https://c-panagopoulos.github.io/Personal-Website/
+- **Portfolio:** https://cpanagopoulos.dev
 - GitHub: **https://github.com/c-panagopoulos**  
 - LinkedIn: **https://linkedin.com/in/c-panagopoulos**  
 - Email: **char@panago.anonaddy.com**
