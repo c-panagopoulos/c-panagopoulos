@@ -37,6 +37,18 @@ A self-hosted study tracker triggered by tapping an NFC tag on a desk — no app
 
 `React 19` · `Vite` · `Tailwind CSS` · `Recharts` · `Express` · `PostgreSQL` · `Ollama` · `Docker` · `Cloudflare Tunnel`
 
+### [Ghost Data — Deletion-Audit Agent](https://github.com/c-panagopoulos/deletion-audit-agent) &nbsp;·&nbsp; [Decision Records](https://github.com/c-panagopoulos/deletion-audit-agent/blob/main/code/docs/decisions.md)
+
+Built solo in 24 hours for HackerRank Orchestrate (Oct 2026): an agent that audits whether a customer's personal data is really deleted, across replicas, search indexes, backups, and the sync jobs that quietly bring it back.
+
+- **The model proposes, the code decides** — LLMs only handle what's genuinely unstructured (whether a request in any language asks for deletion, facts that exist only inside a PDF or screenshot); identity, time rules, policy, and ordering are deterministic code, and every model answer is validated before it can affect the result
+- **Reads messy, multi-format evidence** — SQL snapshots and replicas, JSON exports, six log formats joined by trace id, handover notes, PDFs, and screenshots, all reduced to one record shape
+- **Every finding cites its evidence** — separating what the auditor could have *known* at audit time from what can actually be *cited* took status accuracy on the sample cases from 75% to 96.9%
+- **Scored 25.2 / 30** on output graded against hidden answers for 518 requests, for about $0.17 in API cost from an empty cache
+- **Zero npm dependencies, byte-identical rebuilds** — cached model answers, a file-level output verifier, and prompt-injection guards for request text, logs, and PDFs
+
+`Node.js 22` · `node:sqlite` · `Groq (gpt-oss-120b)` · `Gemini Vision` · `Zero dependencies`
+
 ### [AI-Powered Learning Notes Automation](https://github.com/c-panagopoulos/n8n-automations)
 
 An n8n workflow that turns handwritten notes into formatted, searchable Nextcloud Deck cards using OpenAI Vision.
@@ -65,7 +77,7 @@ A full-stack portfolio site where the "about me" section is a real RAG-powered c
 
 **Backend:** Node.js · Express · REST APIs · Server-Sent Events · JWT Auth · PostgreSQL · pgvector
 
-**AI & Automation:** RAG · OpenAI Embeddings · LLM Integration (Groq, Ollama) · Prompt Engineering · n8n
+**AI & Automation:** RAG · OpenAI Embeddings · LLM Integration (Groq, Gemini, Ollama) · LLM Evaluation · Prompt Engineering · n8n
 
 **Infrastructure & Tooling:** Docker · Linux · Tailscale · Git & GitHub · Nextcloud · Vaultwarden · WebDAV · Vercel
 
