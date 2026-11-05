@@ -104,7 +104,7 @@ Technology helps me solve my own problems. When I needed structure while studyin
 - **Portfolio:** https://cpanagopoulos.dev
 - GitHub: **https://github.com/c-panagopoulos**  
 - LinkedIn: **https://linkedin.com/in/c-panagopoulos**  
-- Email: **char@panago.anonaddy.com**
+- Email: **contact@cpanagopoulos.dev**
 
 ---
 
