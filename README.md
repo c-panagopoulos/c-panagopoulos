@@ -5,7 +5,7 @@
 
 # 👋 Hi, I'm Charalampos Panagopoulos
 
-Full-stack developer based in Athens, Greece, with a background in customer service and a passion for building real, deployed software. I work across React and Node.js, integrate AI into practical tools, and run my own self-hosted homelab for development and automation.
+Junior full-stack developer based in Athens, Greece, changing careers from customer and technical support. I build and deploy real software across React, Node.js and PostgreSQL, integrate AI into practical tools, and run my own self-hosted homelab for development and automation.
 
 My approach is simple: I build things that solve real problems — from a production AI chatbot to automations that remove hours of manual work from my week.
 
@@ -15,13 +15,13 @@ My approach is simple: I build things that solve real problems — from a produc
 
 ### [Hermes — AI Customer-Service Chatbot](https://github.com/c-panagopoulos/hermes-ai) &nbsp;·&nbsp; [Live Demo](https://hermes.cpanagopoulos.dev)
 
-A production-ready, full-stack AI chatbot with a custom Retrieval-Augmented Generation (RAG) pipeline.
+A live, full-stack AI chatbot with a custom Retrieval-Augmented Generation (RAG) pipeline.
 
 - **Custom RAG pipeline** — documents are chunked, embedded, and stored in PostgreSQL with `pgvector`, then retrieved by cosine similarity to ground every response
 - **Real-time token streaming** over Server-Sent Events, rendered word-by-word on a React frontend
 - **JWT-protected admin dashboard** with live analytics (containment/escalation rates, handle time) and drag-and-drop document ingestion
 - **Automatic human-handoff escalation** via an n8n webhook with full conversation history
-- **Deployed to production** on Vercel with a cloud backend, rate limiting, and an OpenAI-compatible LLM layer (Groq in production, local Ollama in development)
+- **Deployed live**, frontend on Vercel and backend on Railway, with rate limiting, and an OpenAI-compatible LLM layer (Groq in production, local Ollama in development)
 
 `React 19` · `Vite` · `Tailwind` · `Node.js / Express` · `PostgreSQL + pgvector` · `Groq / Ollama` · `n8n` · `Vercel`
 
@@ -39,7 +39,7 @@ A self-hosted study tracker triggered by tapping an NFC tag on a desk — no app
 
 ### [Ghost Data — Deletion-Audit Agent](https://github.com/c-panagopoulos/deletion-audit-agent) &nbsp;·&nbsp; [Decision Records](https://github.com/c-panagopoulos/deletion-audit-agent/blob/main/code/docs/decisions.md)
 
-Built solo in 24 hours for HackerRank Orchestrate (Oct 2026): an agent that audits whether a customer's personal data is really deleted, across replicas, search indexes, backups, and the sync jobs that quietly bring it back.
+Built solo with Claude Code in about 8-9 hours of work during the 24-hour HackerRank Orchestrate hackathon (Oct 2026): an agent that audits whether a customer's personal data is really deleted, across replicas, search indexes, backups, and the sync jobs that quietly bring it back.
 
 - **The model proposes, the code decides** — LLMs only handle what's genuinely unstructured (whether a request in any language asks for deletion, facts that exist only inside a PDF or screenshot); identity, time rules, policy, and ordering are deterministic code, and every model answer is validated before it can affect the result
 - **Reads messy, multi-format evidence** — SQL snapshots and replicas, JSON exports, six log formats joined by trace id, handover notes, PDFs, and screenshots, all reduced to one record shape
@@ -53,7 +53,7 @@ Built solo in 24 hours for HackerRank Orchestrate (Oct 2026): an agent that audi
 
 An n8n workflow that turns handwritten notes into formatted, searchable Nextcloud Deck cards using OpenAI Vision.
 
-- Saves ~3 hours per week
+- Saves ~9 minutes per note (estimated)
 - Custom Markdown template, runs self-hosted in Docker
 - Demonstrates real-world workflow engineering
 
@@ -108,4 +108,4 @@ Technology helps me solve my own problems. When I needed structure while studyin
 
 ---
 
-Thanks for stopping by, more projects on the way as I continue my full-stack journey!
+Thanks for stopping by. More projects are on the way.
