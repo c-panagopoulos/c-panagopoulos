@@ -21,7 +21,7 @@ A live, full-stack AI chatbot with a custom Retrieval-Augmented Generation (RAG)
 - **Real-time token streaming** over Server-Sent Events, rendered word-by-word on a React frontend
 - **JWT-protected admin dashboard** with live analytics (containment/escalation rates, handle time) and drag-and-drop document ingestion
 - **Automatic human-handoff escalation** via an n8n webhook with full conversation history
-- **Deployed live**, frontend on Vercel and backend on Railway, with rate limiting, and an OpenAI-compatible LLM layer (Groq in production, local Ollama in development)
+- **Deployed live**, frontend on Vercel and backend on Railway, with rate limiting and an OpenAI-compatible LLM layer (Groq in production, local Ollama in development)
 
 `React 19` · `Vite` · `Tailwind` · `Node.js / Express` · `PostgreSQL + pgvector` · `Groq / Ollama` · `n8n` · `Vercel`
 
